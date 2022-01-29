@@ -32,13 +32,3 @@ echo go('login', 'index');
 $con = Tod\Helpers\Database::getConnection();
 call_user_func_array(array($app, $method), $urlParts);
 //include 'header.php';
-
-// $sql = "SELECT * FROM `users`";
-// $query = $con->prepare($sql);
-// $query->execute();
-// $users = $query->fetchAll();
-// echo '<pre>'; print_r($users);
-
-
-
-?>
