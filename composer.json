@@ -1,0 +1,16 @@
+{
+    "name": "todan/catalog-ryt",
+    "description": "project",
+    "autoload": {
+        "psr-4": {
+            "Todan\\CatalogRyt\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Todor Georgiev (todano)",
+            "email": "g.todor.g@gmail.com"
+        }
+    ],
+    "require": {}
+}
