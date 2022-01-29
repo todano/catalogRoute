@@ -16,21 +16,21 @@
      <div class="header">
          <ul>
              <li>
-                 <a href="index.php">Начало</a>
+                 <a href="index.php">Home</a>
              </li>
              <li>
-                 <a href='<?= go('contact', 'index') ?>'>Контакти</a>
+                 <a href='<?= go('contact', 'index') ?>'>Contacs</a>
              </li>
          </ul>
          <?php if(empty($_SESSION['user']['id_user'])):?>
              <div class="login-btn">
-                   <a href='<?= go('login', 'index') ?>'><button>Вход</button></a>
-                   <a href="register.php">Регистрация</a>
+                   <a href='<?= go('login', 'index') ?>'><button>Login</button></a>
+                   <a href='<?= go('login', 'reg') ?>'><button>SignIn</button></a>
              </div>
          <?php else :?>
              <div class="login-btn">
-               <a href='<?= go('login', 'logOut') ?>'><button>Изход</button></a>
-               <a href='addMovie.php'><button>Добави филм</button></a>
+               <a href='<?= go('login', 'logOut') ?>'><button>Logout</button></a>
+               <a href='addMovie.php'><button>Add movie</button></a>
              </div>
          <?php endif;?>
      </div>
