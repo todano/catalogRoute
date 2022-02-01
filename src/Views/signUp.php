@@ -1,5 +1,5 @@
   <h2>Register to moviecatalog</h2>
-    <form action = '<?= go('login', 'register')?>' method = 'POST'>
+    <form action = '<?= go('login', 'singUp')?>' method = 'POST'>
       <div>
         <h4>Username:</h4>
         <input type="text" name="username" placeholder="Въведете име" >

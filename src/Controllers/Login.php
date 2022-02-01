@@ -13,9 +13,9 @@ class Login
   {
     callView('Main.php','signIn.php');
   }
-  public function reg()
+  public function sign()
   {
-    callView('Main.php','register.php');
+    callView('Main.php','signUp.php');
   }
   public function signIn()
   {
@@ -51,7 +51,7 @@ class Login
     $linkTo = go('Main','index');
     header("location: $linkTo");//go back to home page
   }
-  public function register()
+  public function signUp()
   {
     global $con;
     $errors = [];
